@@ -33,14 +33,15 @@
     color: #fff;
     font-weight: bolder;
     font-size: larger;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     letter-spacing: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 16%;
     cursor: pointer;
     transition: .5s;
+    height: 100%;
 }
 .logo:hover > .first-name{
  color: #8C1F28;

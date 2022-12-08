@@ -1,4 +1,5 @@
 import './MainWrapper.css'
+import HomeLinks from './HomeLinks'
 
 export default function MainWrapper (props) {
     return (
@@ -23,6 +24,7 @@ export default function MainWrapper (props) {
                     saepe iusto amet esse obcaecati?
                 </p>
             </div>
+            <HomeLinks/>
             </div>
         </div>
     )
