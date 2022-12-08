@@ -1,5 +1,5 @@
-import TopBar from './componenet/TopBar'
-import MainWrapper from './componenet/MainWrapper'
+import TopBar from './componenet/Home/TopBar'
+import MainWrapper from './componenet/Home/MainWrapper'
 import './App.css'
 
 function App () {

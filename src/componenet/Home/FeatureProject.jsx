@@ -1,5 +1,5 @@
 import './FeatureProject.css'
-import imgDesign from './../assets/design-icon.png'
+import imgDesign from './../../assets/design-icon.png'
 export default function FeatureProject(){
     return(
         <div className='feature-project'>
@@ -8,7 +8,7 @@ export default function FeatureProject(){
                 <div class="sub-heading">A collection of some side projects that have shipped recently.</div>
             </div>
             <div class="home-featured-projects">
-                <div class="tile-project" href="https://github.com/afteralexxo">
+                <div class="tile-project">
                     <div class="thumbnail">
                         <img src={imgDesign} alt="" />
                     </div>
