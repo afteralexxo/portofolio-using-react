@@ -8,7 +8,7 @@
 .link-container{
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     padding-left: 1.5rem;
     height: 100%;
     align-items: center;
@@ -18,6 +18,9 @@
 }
 .link-item:hover{
     color: #fff;
+}
+li{
+    transition: background ease .5s;
 }
 .link-container > li:hover {
     color: #d9d9d9;
@@ -30,6 +33,6 @@
     justify-content: center;
     width: 40px;
     aspect-ratio: 1/1;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     opacity: .75;
 }

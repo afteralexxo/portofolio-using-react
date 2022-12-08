@@ -1,2 +1,28 @@
-
-
+.App{
+    display: grid;
+    background-color: rgb(17, 17, 17);
+}
+@media only screen and (max-width: 800px){
+    .topbar{
+      top: 93%;
+    }
+    .topbar::before{
+      top: -1px;
+      height: 1px;
+    }
+    .nav-item{
+      font-size: 15px;
+    }
+    .main-wrapper{
+      margin-top: 0px;
+    }
+    .wrapper-container {
+        width: 85%;
+    }
+    .main-header{
+        font-size: 2.8rem;
+    }
+    .main-parag{
+        font-size: 14px;
+    }
+  }
