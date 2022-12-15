@@ -2,26 +2,38 @@
     display: grid;
     background-color: rgb(17, 17, 17);
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 768px){
     .topbar{
-      top: 91%;
+      top: 93%;
+      width: fit-content;
+      justify-content: center;
     }
     .topbar::before{
       top: -1px;
       height: 1px;
     }
+    .logo{
+      display: none;
+    }
     .nav-item{
       font-size: 15px;
     }
     .main-wrapper{
+      top: 5px;
+    }
+    .main-parag{
+      padding-right: 0px;
     }
     .wrapper-container {
         width: 85%;
     }
     .main-header{
-        font-size: 2.8rem;
+        font-size: 1.8rem;
     }
     .main-parag{
         font-size: 14px;
+    }
+    .link-container{
+      padding-left: 0rem;
     }
   }
