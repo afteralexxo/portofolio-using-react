@@ -15,6 +15,7 @@
 }
 .title-project{
     width: 100%;
+    aspect-ratio: 16/4;
     display: flex;
     justify-content: center;
     align-items: flex-end;

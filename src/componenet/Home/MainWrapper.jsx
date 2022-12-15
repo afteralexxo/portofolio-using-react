@@ -6,7 +6,7 @@ export default function MainWrapper (props) {
     return (
         <div className="main-wrapper">
             <div className="wrapper-container">
-            <h1 className="main-header">Website Designer creating thoughtful, intuitive interfaces.</h1>
+            <h1 className="main-header">Website Developer creating thoughtful, intuitive website pages.</h1>
             <div className="parag">
                 <p className='main-parag'>
                     "I’m Alemyehu Mekonen, 

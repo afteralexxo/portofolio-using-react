@@ -1,26 +1,26 @@
 import './FeatureProject.css'
 import imgDesign from './../../assets/design-icon.png'
-export default function FeatureProject(){
-    return(
+export default function FeatureProject() {
+    return (
         <div className='feature-project'>
-            <div class="heading-group">
+            <div className="heading-group">
                 <h4>Featured projects</h4>
-                <div class="sub-heading">A collection of some side projects that have shipped recently.</div>
+                <div className="sub-heading">A collection of some side projects that have shipped recently.</div>
             </div>
-            <div class="home-featured-projects">
-                <div class="tile-project">
-                    <div class="thumbnail">
+            <div className="home-featured-projects">
+                <div className="tile-project">
+                    <div className="thumbnail">
                         <img src={imgDesign} alt="" />
                     </div>
-                    <div class="detail">
-                        <span class="title">Design Vault</span>
+                    <div className="detail">
+                        <span className="title">Design Vault</span>
                         <p>
-                            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, quisquam."
+                            "Under Devlopment"
                         </p>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 }
