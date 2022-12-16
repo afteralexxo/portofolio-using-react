@@ -5,7 +5,7 @@
 @media only screen and (max-width: 768px){
     .topbar{
       top: 93%;
-      width: fit-content;
+      width: 100%;
       justify-content: center;
     }
     .topbar::before{
@@ -32,6 +32,9 @@
     }
     .main-parag{
         font-size: 14px;
+    }
+    .home-links{
+      gap: 1.8rem;
     }
     .link-container{
       padding-left: 0rem;
