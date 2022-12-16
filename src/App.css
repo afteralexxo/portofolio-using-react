@@ -4,7 +4,7 @@
 }
 @media only screen and (max-width: 768px){
     .topbar{
-      top: 88%;
+      top: 90%;
       width: 100%;
       justify-content: center;
     }
@@ -16,6 +16,7 @@
       display: none;
     }
     .nav-item{
+      padding-right: 15px;
       font-size: 15px;
     }
     .main-wrapper{
@@ -33,6 +34,8 @@
     }
     .main-parag{
         font-size: 14px;
+        line-height: 35px;
+        text-align: center;
     }
 
     .home-links{
