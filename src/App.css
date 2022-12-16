@@ -41,7 +41,10 @@
     }
 
     .home-links{
-      gap: .5rem;
+      gap: .7rem;
+    }
+    .btn-mail{
+      font-size: x-small;
     }
     .link-container{
       padding-left: 0rem;
