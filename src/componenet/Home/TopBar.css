@@ -59,7 +59,7 @@
     left: 30px;
 }
 .nick-name{
-    text-shadow: 5px 2px #8C1F28;
+    text-shadow: 2px 2px #8C1F28;
     display: block;
     transform: rotate(12deg);
     position: absolute;

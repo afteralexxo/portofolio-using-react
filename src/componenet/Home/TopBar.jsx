@@ -6,8 +6,8 @@ export default function TopBar (props) {
     return (
         <div className="topbar">
             <a className="logo">
-                <span className="first-name">Alex</span>
-                <span className='nick-name'>og</span>
+                <span className="first-name">Alemayehu</span>
+                {/* <span className='nick-name'>hu</span> */}
             </a>
             <nav className="main-menu">
                 <a href="" className="nav-item">Home</a>
