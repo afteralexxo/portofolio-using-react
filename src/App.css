@@ -30,7 +30,7 @@
   }
 
   .main-parag {
-    padding-right: 0px;
+    
   }
 
   .wrapper-container {
@@ -46,7 +46,8 @@
   }
 
   .main-parag {
-    opacity: .8;
+    padding-right: 0px;
+    opacity: .7;
     font-size: 13px;
     line-height: 32px;
     text-align: center;
