@@ -27,7 +27,7 @@ export default function MainWrapper (props) {
             </div>
             <HomeLinks/>
             <hr />
-            <FeatureProject/>
+            {/* <FeatureProject/> */}
             <hr />
             <div className="footer-bar"></div>
             </div>
