@@ -46,12 +46,14 @@
   }
 
   .main-parag {
-    font-size: 12px;
+    opacity: .8;
+    font-size: 13px;
     line-height: 32px;
     text-align: center;
   }
 
   .home-links {
+    text-align: center;
     align-items: center;
     gap: 1rem;
   }
