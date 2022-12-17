@@ -21,12 +21,13 @@
     }
     .main-wrapper{
       top: 5px;
+      width: 100%;
     }
     .main-parag{
       padding-right: 0px;
     }
     .wrapper-container {
-        width: 85%;
+        width: 95%;
         gap: 30px;
     }
     .main-header{
@@ -35,8 +36,8 @@
         text-align: center;
     }
     .main-parag{
-        font-size: 14px;
-        line-height: 35px;
+        font-size: 12px;
+        line-height: 32px;
         text-align: center;
     }
 
