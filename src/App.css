@@ -1,53 +1,65 @@
-.App{
-    display: grid;
-    background-color: rgb(17, 17, 17);
+.App {
+  display: grid;
+  background-color: rgb(17, 17, 17);
 }
-@media only screen and (max-width: 768px){
-    .topbar{
-      top: 90%;
-      width: 100%;
-      justify-content: center;
-    }
-    .topbar::before{
-      top: -1px;
-      height: 1px;
-    }
-    .logo{
-      display: none;
-    }
-    .nav-item{
-      padding-right: 15px;
-      font-size: 15px;
-    }
-    .main-wrapper{
-      top: 5px;
-      width: 100%;
-    }
-    .main-parag{
-      padding-right: 0px;
-    }
-    .wrapper-container {
-        width: 95%;
-        gap: 30px;
-    }
-    .main-header{
-        font-size: 1.5rem;
-        line-height: 3rem;
-        text-align: center;
-    }
-    .main-parag{
-        font-size: 12px;
-        line-height: 32px;
-        text-align: center;
-    }
 
-    .home-links{
-      gap: 1rem;
-    }
-    .btn-mail{
-      font-size: x-small;
-    }
-    .link-container{
-      padding-left: 0rem;
-    }
+@media only screen and (max-width: 768px) {
+  .topbar {
+    top: 90%;
+    width: 100%;
+    justify-content: center;
   }
+
+  .topbar::before {
+    top: -1px;
+    height: 1px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-item {
+    padding-right: 15px;
+    font-size: 15px;
+  }
+
+  .main-wrapper {
+    top: 5px;
+    width: 100%;
+  }
+
+  .main-parag {
+    padding-right: 0px;
+  }
+
+  .wrapper-container {
+    width: 95%;
+    gap: 30px;
+  }
+
+  .main-header {
+    padding-top: 1%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .main-parag {
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .home-links {
+    gap: 1rem;
+  }
+
+  .btn-mail {
+    font-size: x-small;
+  }
+
+  .link-container {
+    padding-left: 0rem;
+  }
+}
