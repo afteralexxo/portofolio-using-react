@@ -29,10 +29,6 @@
     width: 100%;
   }
 
-  .main-parag {
-    
-  }
-
   .wrapper-container {
     width: 95%;
     gap: 30px;
@@ -64,6 +60,8 @@
   }
 
   .link-container {
+    justify-content: center;
+    width: 100%;
     padding-left: 0rem;
   }
 }
