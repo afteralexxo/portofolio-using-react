@@ -1,12 +1,15 @@
 import './MainWrapper.css'
+import Ppicture from './../../assets/alex.tv.jpg'
 import HomeLinks from './HomeLinks'
-import FeatureProject from './FeatureProject';
 
 export default function MainWrapper (props) {
     return (
         <div className="main-wrapper">
             <div className="wrapper-container">
             <h1 className="main-header">Website Developer creating thoughtful, intuitive website pages.</h1>
+            <div className='pp-container'>
+                <img src={Ppicture} className='pp-alex' alt="" />
+            </div>
             <div className="parag">
                 <p className='main-parag'>
                     "I’m Alemyehu Mekonen, 
@@ -26,8 +29,7 @@ export default function MainWrapper (props) {
                 </p>
             </div>
             <HomeLinks/>
-            <hr />
-            {/* <FeatureProject/> */}
+            <hr />    
             <hr />
             <div className="footer-bar"></div>
             </div>

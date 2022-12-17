@@ -13,21 +13,36 @@
 }
 
 .wrapper-container {
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 6rem;
 }
 
 .main-header{
     padding-top: 10%;
-    font-size: 2.8rem;
-    line-height: 5.5rem;
-    text-align: left;
-    font-weight: bold;
+    font-size: 4rem;
+    line-height: 8rem;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
     word-break: no-wrap;
     opacity: 1;
 }
+.pp-container{
+    margin-top: 10px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.pp-alex{
+    border-radius: 50%;
+    width: 15%;
+    aspect-ratio: 1/1;
+}
+
 
 .main-parag{
     text-align: left;
@@ -44,8 +59,9 @@
 
 hr{
     opacity: .1;
-}
+}   
+
 .footer-bar{
     width: 100%;
-    height: 80px;
+    height: 100px;
 }

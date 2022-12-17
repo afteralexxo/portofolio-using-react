@@ -40,6 +40,9 @@
     line-height: 3.4rem;
     text-align: center;
   }
+  .pp-container{
+    margin-top: 0px;
+  }
 
   .main-parag {
     padding-right: 0px;
