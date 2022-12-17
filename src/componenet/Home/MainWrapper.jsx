@@ -1,5 +1,5 @@
 import './MainWrapper.css'
-import Ppicture from './../../assets/alex.sky.jpg'
+import Ppicture from './../../assets/alex.pp2.jpg'
 import HomeLinks from './HomeLinks'
 
 export default function MainWrapper (props) {
