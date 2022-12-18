@@ -1,7 +1,7 @@
 .topbar {
     background-color: rgba(17, 17, 17, 0.8);
     backdrop-filter: blur(24px);
-    border-bottom-color: #242424;
+    border-bottom-color: #1a1a1a;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -12,7 +12,7 @@
     position: fixed;
     top: 4px;
     z-index: 900;
-    height: 12%;
+    height: 80px;
     padding-right: 16px;
     padding-left: 16px;
     border-bottom-width: 1px;
@@ -30,43 +30,14 @@
 }
 
 .logo {
-    color: #fff;
-    font-weight: bolder;
-    font-size: larger;
-    /* margin-left: 10px; */
-    letter-spacing: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 16%;
     cursor: pointer;
     transition: .5s;
     height: 100%;
 }
-.logo:hover > .first-name{
- color: #8C1F28;
+.logo>img{
+    transform: scale(.5);
 }
-.logo:hover > .nick-name{
-    text-shadow: 10px 2px #fff;
-    color: #591C21;
-    transform: rotate(0deg);
-    bottom: 1px;
-}
-.first-name{
-    display: block;
-    transform: rotate(0deg);
-    position: absolute;
-    left: 30px;
-}
-.nick-name{
-    text-shadow: 2px 2px #8C1F28;
-    display: block;
-    transform: rotate(12deg);
-    position: absolute;
-    left: 101.5px;
-    top: 27px;
-}
-
 .main-menu {
     display: flex;
     flex-direction: row;
