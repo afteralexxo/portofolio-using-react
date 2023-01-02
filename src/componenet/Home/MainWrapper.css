@@ -40,8 +40,8 @@
 .pp-alex{
     /* filter: grayscale(70%); */
     border-radius: 50%;
-    width: 15%;
-    aspect-ratio: 1/1.1;
+    width: 25%;
+    aspect-ratio: 1/1;
     box-shadow: 4px 1px 10px #202020;
 }
 
